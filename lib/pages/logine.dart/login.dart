@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables
 
+import 'package:ecommerc_app/shaired/coustem%20textfield.dart';
 import 'package:flutter/material.dart';
 
 class login extends StatelessWidget {
@@ -14,21 +15,10 @@ class login extends StatelessWidget {
           child: Column(
             children: [const
               SizedBox(height: 64,),
-              TextField(
-            keyboardType: TextInputType.text,
-            obscureText: true,
-            decoration: InputDecoration(
-              hintText: "Enter Your Password : ",
-              // To delete borders
-              enabledBorder: OutlineInputBorder(borderSide: Divider.createBorderSide(context),),
-              focusedBorder: OutlineInputBorder(borderSide: BorderSide(color: Colors.grey,),),
-              // fillColor: Colors.red,
-              filled: true,
-              contentPadding: const EdgeInsets.all(8),
-            )),
+              mytextfield(),
              SizedBox(height: 33,),
             
-
+             mytextfield(),  
 
 
 
