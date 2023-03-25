@@ -13,30 +13,31 @@ class login extends StatelessWidget {
         child: Padding(
           padding: const EdgeInsets.all(33.0),
           child: Column(
-            children: [const
-              SizedBox(height: 64,),
-              mytextfield(
-                TextInputTypee: TextInputType.emailAddress ,
-                ispasword: false,
-                hinttextt: "enter your email",
+            children: [
+              const SizedBox(
+                height: 64,
               ),
+              TextField(
+                  keyboardType: TextInputType.emailAddress,
+                  obscureText: false,
+                  decoration: InputDecoration(
+                    hintText: "enter your email",
+                    // To delete borders
+                    enabledBorder: OutlineInputBorder(
+                      borderSide: Divider.createBorderSide(context),
+                    ),
+                    focusedBorder: OutlineInputBorder(
+                      borderSide: BorderSide(
+                        color: Colors.grey,
+                      ),
+                    ),
+                    // fillColor: Colors.red,
+                    filled: true,
+                    contentPadding: const EdgeInsets.all(8),
+                  )),
 
-
-
-             SizedBox(height: 33,),
-            
-
-             mytextfield(
-              TextInputTypee: TextInputType.text,
-                ispasword: true,
-                hinttextt: "enter your pass",
-             ),  
-
-
-
-
-
-
+                const SizedBox(height: 33,),
+                
             ],
           ),
         ),
