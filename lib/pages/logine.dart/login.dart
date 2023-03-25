@@ -20,19 +20,35 @@ class login extends StatelessWidget {
               ),
               // ignore: prefer_const_constructors
               TextField(
-                  keyboardType: TextInputType.emailAddress,
-                  obscureText: false,
-                  
-                  decoration:decorationtextfield.copyWith(hintText: "enter your email"), 
-                  ),
+                keyboardType: TextInputType.emailAddress,
+                obscureText: false,
+                decoration:
+                    decorationtextfield.copyWith(hintText: "enter your email"),
+              ),
 
-                const SizedBox(height: 33,),
-                 TextField(
-                  keyboardType: TextInputType.text,
-                  obscureText: true,
-                  
-                  decoration:decorationtextfield.copyWith(hintText: "enter your password"), 
-                  ),
+              const SizedBox(
+                height: 33,
+              ),
+              TextField(
+                keyboardType: TextInputType.text,
+                obscureText: true,
+                decoration: decorationtextfield.copyWith(
+                    hintText: "enter your password"),
+              ),
+
+              ElevatedButton(
+                onPressed: () {},
+                style: ButtonStyle(
+                  backgroundColor: MaterialStateProperty.all(Colors.orange),
+                  padding: MaterialStateProperty.all(EdgeInsets.all(12)),
+                  shape: MaterialStateProperty.all(RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(8))),
+                ),
+                child: Text(
+                  "click here",
+                  style: TextStyle(fontSize: 19),
+                ),
+              ),
             ],
           ),
         ),
