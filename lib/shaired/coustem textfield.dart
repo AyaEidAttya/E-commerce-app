@@ -8,13 +8,16 @@ class mytextfield extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  TextField(
-            keyboardType: TextInputType.text,
-            obscureText: true,
+            keyboardType: TextInputTypee,
+            obscureText: ispasword,
             decoration: InputDecoration(
-              hintText: "Enter Your Password : ",
+              hintText: hinttextt,
               // To delete borders
-              enabledBorder: OutlineInputBorder(borderSide: Divider.createBorderSide(context),),
-              focusedBorder: OutlineInputBorder(borderSide: BorderSide(color: Colors.grey,),),
+              enabledBorder: OutlineInputBorder(
+                borderSide:
+                 Divider.createBorderSide(context),),
+              focusedBorder:
+               OutlineInputBorder(borderSide: BorderSide(color: Colors.grey,),),
               // fillColor: Colors.red,
               filled: true,
               contentPadding: const EdgeInsets.all(8),
