@@ -3,7 +3,16 @@
 import 'package:flutter/material.dart';
 
 class mytextfield extends StatelessWidget {
-  const mytextfield({super.key});
+  final TextInputType TextInputTypee;
+ final bool ispasword;
+ final String hinttextt;
+ // ignore: prefer_const_constructors_in_immutables
+ mytextfield 
+ ({super.key, 
+  required this.TextInputTypee,
+ required this.hinttextt,
+ required this.ispasword,
+ });
 
   @override
   Widget build(BuildContext context) {

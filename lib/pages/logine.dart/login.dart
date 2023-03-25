@@ -15,10 +15,22 @@ class login extends StatelessWidget {
           child: Column(
             children: [const
               SizedBox(height: 64,),
-              mytextfield(),
+              mytextfield(
+                TextInputTypee: TextInputType.emailAddress ,
+                ispasword: false,
+                hinttextt: "enter your email",
+              ),
+
+
+
              SizedBox(height: 33,),
             
-             mytextfield(),  
+
+             mytextfield(
+              TextInputTypee: TextInputType.text,
+                ispasword: true,
+                hinttextt: "enter your pass",
+             ),  
 
 
 
