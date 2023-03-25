@@ -23,11 +23,16 @@ class login extends StatelessWidget {
                   keyboardType: TextInputType.emailAddress,
                   obscureText: false,
                   
-                  decoration:decorationtextfield, 
+                  decoration:decorationtextfield.copyWith(hintText: "enter your email"), 
                   ),
 
                 const SizedBox(height: 33,),
-                
+                 TextField(
+                  keyboardType: TextInputType.text,
+                  obscureText: true,
+                  
+                  decoration:decorationtextfield.copyWith(hintText: "enter your password"), 
+                  ),
             ],
           ),
         ),
