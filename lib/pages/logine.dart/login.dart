@@ -12,6 +12,7 @@ class login extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color.fromARGB(255, 247, 247, 247),
       body: Center(
         child: Padding(
           padding: const EdgeInsets.all(33.0),
