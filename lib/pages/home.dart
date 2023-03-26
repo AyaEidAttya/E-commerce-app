@@ -19,11 +19,11 @@ class Home extends StatelessWidget {
                         image: AssetImage("assets/img/test.jpg"),
                         fit: BoxFit.cover),
                   ),
-                  accountName: Text("ali Hassan",
+                  accountName: Text("aya eid",
                       style: TextStyle(
                         color: Color.fromARGB(255, 255, 255, 255),
                       )),
-                  accountEmail: Text("ali@yahoo.com"),
+                  accountEmail: Text("aya@gmail.com"),
                   currentAccountPictureSize: Size.square(99),
                   currentAccountPicture: CircleAvatar(
                       radius: 55,
