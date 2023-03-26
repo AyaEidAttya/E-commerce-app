@@ -1,4 +1,5 @@
 
+import 'package:ecommerc_app/pages/home.dart';
 import 'package:ecommerc_app/pages/logine.dart/login.dart';
 import 'package:ecommerc_app/pages/register.dart';
 import 'package:flutter/material.dart';
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:Register(),
+      home:Home(),
     );
   }
 }
