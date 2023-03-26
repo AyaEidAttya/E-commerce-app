@@ -34,12 +34,15 @@ class Register extends StatelessWidget {
                 const SizedBox(
                   height: 33,
                 ),
-                
+
                  TextField(
                   keyboardType: TextInputType.emailAddress,
                   obscureText: false,
                   decoration:
                       decorationtextfield.copyWith(hintText: "enter your email"),
+                ),
+                const SizedBox(
+                  height: 33,
                 ),
                 TextField(
                   keyboardType: TextInputType.text,
