@@ -25,21 +25,21 @@ class Register extends StatelessWidget {
                 ),
                 // ignore: prefer_const_constructors
                 TextField(
-                  keyboardType: TextInputType.emailAddress,
+                  keyboardType: TextInputType.text,
                   obscureText: false,
-                  decoration:
-                      decorationtextfield.copyWith(hintText: "enter your email"),
+                  decoration: decorationtextfield.copyWith(
+                      hintText: "enter your user name"),
                 ),
-    
+
                 const SizedBox(
                   height: 33,
                 ),
 
-                 TextField(
+                TextField(
                   keyboardType: TextInputType.emailAddress,
                   obscureText: false,
-                  decoration:
-                      decorationtextfield.copyWith(hintText: "enter your email"),
+                  decoration: decorationtextfield.copyWith(
+                      hintText: "enter your email"),
                 ),
                 const SizedBox(
                   height: 33,
@@ -50,7 +50,7 @@ class Register extends StatelessWidget {
                   decoration: decorationtextfield.copyWith(
                       hintText: "enter your password"),
                 ),
-    
+
                 const SizedBox(
                   height: 33,
                 ),
@@ -73,11 +73,12 @@ class Register extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Text("dont have an acount?",style: TextStyle(fontSize: 20)),
+                    Text("dont have an acount?",
+                        style: TextStyle(fontSize: 20)),
                     TextButton(
                       onPressed: () {},
-                      child:
-                          Text('sign upt', style: TextStyle(color: Colors.black,fontSize: 20)),
+                      child: Text('sign upt',
+                          style: TextStyle(color: Colors.black, fontSize: 20)),
                     )
                   ],
                 )
