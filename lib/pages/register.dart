@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables
 
+import 'package:ecommerc_app/pages/logine.dart/login.dart';
 import 'package:ecommerc_app/shaired/const_color.dart';
 import 'package:ecommerc_app/shaired/constants.dart';
 import 'package:ecommerc_app/shaired/coustem%20textfield.dart';
@@ -31,11 +32,11 @@ class Register extends StatelessWidget {
                     decoration: decorationtextfield.copyWith(
                         hintText: "enter your user name"),
                   ),
-            
+
                   const SizedBox(
                     height: 33,
                   ),
-            
+
                   TextField(
                     keyboardType: TextInputType.emailAddress,
                     obscureText: false,
@@ -51,7 +52,7 @@ class Register extends StatelessWidget {
                     decoration: decorationtextfield.copyWith(
                         hintText: "enter your password"),
                   ),
-            
+
                   const SizedBox(
                     height: 33,
                   ),
@@ -77,9 +78,16 @@ class Register extends StatelessWidget {
                       Text("dont have an acount?",
                           style: TextStyle(fontSize: 20)),
                       TextButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const login()),
+                          );
+                        },
                         child: Text('sign in',
-                            style: TextStyle(color: Colors.black, fontSize: 20)),
+                            style:
+                                TextStyle(color: Colors.black, fontSize: 20)),
                       )
                     ],
                   )
