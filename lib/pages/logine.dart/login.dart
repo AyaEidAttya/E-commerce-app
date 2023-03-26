@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables
 
+import 'package:ecommerc_app/shaired/const_color.dart';
 import 'package:ecommerc_app/shaired/constants.dart';
 import 'package:ecommerc_app/shaired/coustem%20textfield.dart';
 import 'package:flutter/material.dart';
@@ -42,13 +43,13 @@ class login extends StatelessWidget {
               ElevatedButton(
                 onPressed: () {},
                 style: ButtonStyle(
-                  backgroundColor: MaterialStateProperty.all(Color.fromARGB(255, 25, 99, 31)),
+                  backgroundColor: MaterialStateProperty.all(BTNgreen),
                   padding: MaterialStateProperty.all(EdgeInsets.all(12)),
                   shape: MaterialStateProperty.all(RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(8))),
                 ),
                 child: Text(
-                  "click here",
+                  "Siqn in",
                   style: TextStyle(fontSize: 19),
                 ),
               ),
