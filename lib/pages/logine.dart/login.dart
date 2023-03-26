@@ -58,12 +58,13 @@ class login extends StatelessWidget {
                 height: 33,
               ),
               Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text("data"),
+                  Text("dont have an acount?"),
                   TextButton(
                     onPressed: () {},
                     child:
-                        Text('Logout', style: TextStyle(color: Colors.black)),
+                        Text('sign upt', style: TextStyle(color: Colors.black)),
                   )
                 ],
               )
