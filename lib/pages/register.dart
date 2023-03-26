@@ -6,8 +6,8 @@ import 'package:ecommerc_app/shaired/coustem%20textfield.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
-class register extends StatelessWidget {
-  const register({super.key});
+class Register extends StatelessWidget {
+  const Register({super.key});
 
   @override
   Widget build(BuildContext context) {
