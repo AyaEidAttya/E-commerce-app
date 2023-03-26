@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables
 
+import 'package:ecommerc_app/pages/register.dart';
 import 'package:ecommerc_app/shaired/const_color.dart';
 import 'package:ecommerc_app/shaired/constants.dart';
 import 'package:ecommerc_app/shaired/coustem%20textfield.dart';
@@ -65,7 +66,11 @@ class login extends StatelessWidget {
                   children: [
                     Text("dont have an acount?",style: TextStyle(fontSize: 20)),
                     TextButton(
-                      onPressed: () {},
+                      onPressed: () { Navigator.pushReplacement(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const Register()),
+                          );},
                       child:
                           Text('sign upt', style: TextStyle(color: Colors.black,fontSize: 20)),
                     )
