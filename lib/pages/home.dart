@@ -16,7 +16,7 @@ class Home extends StatelessWidget {
                 UserAccountsDrawerHeader(
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                        image: AssetImage("assets/img/test.jpg"),
+                        image: AssetImage("asstes/image/front.jpg"),
                         fit: BoxFit.cover),
                   ),
                   accountName: Text("aya eid",
@@ -27,7 +27,7 @@ class Home extends StatelessWidget {
                   currentAccountPictureSize: Size.square(99),
                   currentAccountPicture: CircleAvatar(
                       radius: 55,
-                      backgroundImage: AssetImage("assets/img/ali.jpg")),
+                      backgroundImage: AssetImage("asstes/image/back.jpg")),
                 ),
                 ListTile(
                     title: Text("Home"),
