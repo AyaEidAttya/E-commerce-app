@@ -64,7 +64,7 @@ class Register extends StatelessWidget {
                           borderRadius: BorderRadius.circular(8))),
                     ),
                     child: Text(
-                      "Siqn in",
+                      "Register",
                       style: TextStyle(fontSize: 19),
                     ),
                   ),
@@ -78,7 +78,7 @@ class Register extends StatelessWidget {
                           style: TextStyle(fontSize: 20)),
                       TextButton(
                         onPressed: () {},
-                        child: Text('sign upt',
+                        child: Text('sign in',
                             style: TextStyle(color: Colors.black, fontSize: 20)),
                       )
                     ],
