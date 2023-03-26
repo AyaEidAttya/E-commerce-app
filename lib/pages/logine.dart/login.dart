@@ -4,6 +4,7 @@ import 'package:ecommerc_app/shaired/const_color.dart';
 import 'package:ecommerc_app/shaired/constants.dart';
 import 'package:ecommerc_app/shaired/coustem%20textfield.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 
 class login extends StatelessWidget {
   const login({super.key});
@@ -56,6 +57,16 @@ class login extends StatelessWidget {
               const SizedBox(
                 height: 33,
               ),
+              Row(
+                children: [
+                  Text("data"),
+                  TextButton(
+                    onPressed: () {},
+                    child:
+                        Text('Logout', style: TextStyle(color: Colors.black)),
+                  )
+                ],
+              )
             ],
           ),
         ),
