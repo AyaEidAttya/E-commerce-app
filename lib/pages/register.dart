@@ -79,7 +79,7 @@ class Register extends StatelessWidget {
                           style: TextStyle(fontSize: 20)),
                       TextButton(
                         onPressed: () {
-                          Navigator.push(
+                          Navigator.pushReplacement(
                             context,
                             MaterialPageRoute(
                                 builder: (context) => const login()),
