@@ -16,6 +16,7 @@ class login extends StatelessWidget {
         child: Padding(
           padding: const EdgeInsets.all(33.0),
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const SizedBox(
                 height: 64,
@@ -60,11 +61,11 @@ class login extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text("dont have an acount?"),
+                  Text("dont have an acount?",style: TextStyle(fontSize: 20)),
                   TextButton(
                     onPressed: () {},
                     child:
-                        Text('sign upt', style: TextStyle(color: Colors.black)),
+                        Text('sign upt', style: TextStyle(color: Colors.black,fontSize: 20)),
                   )
                 ],
               )
