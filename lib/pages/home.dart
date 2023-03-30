@@ -13,13 +13,13 @@ class Home extends StatelessWidget {
 
 List items=[
 iteam(
-  imgpath: "assets\img\OIP (1).jpeg",price: 12.99),
+  imgpath: "assets/img/OIP (1).jpeg",price: 12.99),
   iteam(
-  imgpath: "assets\img\OIP (2).jpeg",price: 12.99),
+  imgpath: "assets/img/OIP (2).jpeg",price: 12.99),
   iteam(
-  imgpath: "assets\img\OIP (3).jpeg",price: 12.99),
+  imgpath: "assets/img/OIP (3).jpeg",price: 12.99),
   iteam(
-  imgpath: "",price: 12.99),
+  imgpath: "assets/img/450951-flowers-nature-plant-beautiful-green-flower (1).jpg",price: 12.99),
 
 ];
 
