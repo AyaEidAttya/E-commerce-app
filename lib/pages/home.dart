@@ -10,64 +10,44 @@ class Home extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.only(top: 22),
         child: GridView.builder(
-          gridDelegate:SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 2,
-            childAspectRatio: 3/2,
-            crossAxisSpacing: 10,
-            mainAxisSpacing: 33
-            ),
-        itemCount: 4,
-        itemBuilder: (BuildContext context,int index ) {
-          return GestureDetector(
-            onTap: () {
-              
-            },
-            child: GridTile(
-                
-              child:Stack(
-                children: [
-                  Positioned(
-                    top: -3,
-                    bottom: -9,
-                  right: 0,
-                  left: 0,
-                
-                  
-                  child: ClipRRect( 
-                    borderRadius: BorderRadius.circular(55),
-                    child: Image.asset("assets/img/OIP (1).jpeg")),
+            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                crossAxisCount: 2,
+                childAspectRatio: 3 / 2,
+                crossAxisSpacing: 10,
+                mainAxisSpacing: 33),
+            itemCount: 4,
+            itemBuilder: (BuildContext context, int index) {
+              return GestureDetector(
+                onTap: () {},
+                child: GridTile(
+                  child: Stack(
+                    children: [
+                      Positioned(
+                        top: -3,
+                        bottom: -9,
+                        right: 0,
+                        left: 0,
+                        child: ClipRRect(
+                            borderRadius: BorderRadius.circular(55),
+                            child: Image.asset("assets/img/OIP (1).jpeg")),
+                      ),
+                    ],
+                  ),
+                  footer: GridTileBar(
+                    trailing: IconButton(
+                      color: Color.fromARGB(255, 62, 94, 70),
+                      onPressed: () {},
+                      icon: Icon(Icons.add),
+                    ),
+                    leading: Text("\$12.99"),
+                    title: Text(
+                      "",
+                    ),
+                  ),
                 ),
-                
-                ],
-              ),
-            footer: GridTileBar(
-              trailing: IconButton(
-              color: Color.fromARGB(255, 62, 94, 70),
-              onPressed: () {
-                
-              },
-              icon: Icon(Icons.add),
-              ),
-              
-
-            ),
-            ),
-          );
-          
-        }),
+              );
+            }),
       ),
-       
-        
-   
-
-
-
-
-
-
-
-
-
       drawer: Drawer(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
