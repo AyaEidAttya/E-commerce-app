@@ -1,38 +1,16 @@
 // ignore_for_file: unnecessary_import
 
+import 'package:ecommerc_app/Model/iteams_class.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
 // ignore: camel_case_types
-class iteam{
-  String imgpath;
-  double price;
-  iteam({
-    required this.imgpath,required this.price
-  });
-}
+
 class Home extends StatelessWidget {
  
 
- final List<iteam> items=[
-iteam(
-  imgpath: "assets/img/OIP (1).jpeg",price: 12.99),
-  iteam(
-  imgpath: "assets/img/OIP (2).jpeg",price: 12.99),
-  iteam(
-  imgpath: "assets/img/OIP (3).jpeg",price: 12.99),
-  iteam(
-  imgpath: "assets/img/450951-flowers-nature-plant-beautiful-green-flower (1).jpg",price: 12.99),
-  iteam(
-  imgpath: "assets/img/450960-flowers-nature-plant-beautiful-green-flower (1).jpg",price: 12.99),
-   iteam(
-  imgpath: "assets/img/3832504d6d10b7ea7958ff9e25bd14c3.jpg",price: 12.99),
-   iteam(
-  imgpath: "assets/img/Green_Flowers.jpg",price: 12.99),
-iteam(
-  imgpath: "assets/img/R.jpeg",price: 12.99),
-];
-Home({super.key});
+ 
+const Home({super.key});
   @override
   Widget build(BuildContext context) {
     return Scaffold(
