@@ -34,9 +34,9 @@ class Home extends StatelessWidget {
                     ],
                   ),
                   footer: GridTileBar(
-                    backgroundColor: Color.fromARGB(66, 73, 127, 110),
+                    backgroundColor: Color.fromARGB(66, 39, 86, 72),
                     trailing: IconButton(
-                      color: Color.fromARGB(255, 62, 94, 70),
+                      color: Color.fromARGB(255, 38, 84, 50),
                       onPressed: () {},
                       icon: Icon(Icons.add),
                     ),
