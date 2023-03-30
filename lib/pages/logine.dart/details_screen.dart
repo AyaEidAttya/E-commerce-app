@@ -9,7 +9,7 @@ import '../../shaired/const_color.dart';
 class Details extends StatefulWidget {
 iteam product;
 Details({
-  required this.product
+  required this.product, required iteam protected
 });
 
   @override
@@ -65,7 +65,7 @@ class _DetailsState extends State<Details> {
         body: SingleChildScrollView(
           child: Column(
             children: [
-              Image.asset("assets/img/2.webp"),
+              Image.asset(widget.product.imgpath),
               SizedBox(
                 height: 11,
               ),
