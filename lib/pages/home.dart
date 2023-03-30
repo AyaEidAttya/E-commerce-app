@@ -29,9 +29,10 @@ class Home extends StatelessWidget {
                       radius: 55,
                       backgroundImage: AssetImage("assets/img/back.jpg")),
                 ),
-               ListTile(
-                
-               )
+                ListTile(
+                    title: Text("Home"),
+                    leading: Icon(Icons.home),
+                    onTap: () {}),
                 ListTile(
                     title: Text("My products"),
                     leading: Icon(Icons.add_shopping_cart),
