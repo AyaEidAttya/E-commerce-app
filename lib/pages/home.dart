@@ -51,7 +51,7 @@ Home({super.key});
                         left: 0,
                         child: ClipRRect(
                             borderRadius: BorderRadius.circular(55),
-                            child: Image.asset("assets/img/OIP (1).jpeg")),
+                            child: Image.asset(items[index].imgpath)),
                       ),
                     ],
                   ),
