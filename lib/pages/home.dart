@@ -17,7 +17,7 @@ class Home extends StatelessWidget {
       itemCount: 4,
       itemBuilder: (BuildContext context,int index ) {
         return GridTile(
-         child: Image.asset("img PATH")
+         child: Image.asset("assets/img/OIP (1).jpeg")
         );
     
       }),
