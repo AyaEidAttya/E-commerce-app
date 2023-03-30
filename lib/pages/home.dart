@@ -1,12 +1,15 @@
+// ignore_for_file: unnecessary_import
+
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
+// ignore: camel_case_types
 class iteam{
   String imgpath;
   double price;
   iteam({
     required this.imgpath,required this.price
-  })
+  });
 }
 class Home extends StatelessWidget {
  
@@ -34,7 +37,7 @@ Home({super.key});
                 childAspectRatio: 3 / 2,
                 crossAxisSpacing: 10,
                 mainAxisSpacing: 33),
-            itemCount: 4,
+            itemCount:items.length ,
             itemBuilder: (BuildContext context, int index) {
               return GestureDetector(
                 onTap: () {},
