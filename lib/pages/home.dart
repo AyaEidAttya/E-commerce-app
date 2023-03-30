@@ -41,8 +41,9 @@ class Home extends StatelessWidget {
                 ],
               ),
             footer: GridTileBar(
+              trailing: IconButton(),
 
-              
+
             ),
             ),
           );
