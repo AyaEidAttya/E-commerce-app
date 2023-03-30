@@ -1,10 +1,25 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
+class iteam{
+  String imgpath;
+  double price;
+  iteam({
+    required this.imgpath,required this.price
+  })
+}
 class Home extends StatelessWidget {
  
 
 List items=[
+iteam(
+  imgpath: "assets\img\OIP (1).jpeg",price: 12.99),
+  iteam(
+  imgpath: "assets\img\OIP (2).jpeg",price: 12.99),
+  iteam(
+  imgpath: "assets\img\OIP (3).jpeg",price: 12.99),
+  iteam(
+  imgpath: "",price: 12.99),
 
 ];
 
