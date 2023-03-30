@@ -4,6 +4,8 @@ import 'package:ecommerc_app/Model/iteams_class.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
+import 'logine.dart/details_screen.dart';
+
 // ignore: camel_case_types
 
 class Home extends StatelessWidget {
@@ -29,8 +31,8 @@ const Home({super.key});
                   Navigator.push(
           context,
           MaterialPageRoute(
-            builder: (context) => Details(todo: todos[index]),
-          ),
+            builder: (context) => Details (protected:items[0], product:"",),
+          ),);
                 },
                 child: GridTile(
                   child: Stack(
