@@ -4,15 +4,10 @@ import 'package:ecommerc_app/Model/iteams_class.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
-import 'logine.dart/details_screen.dart';
-
 // ignore: camel_case_types
 
 class Home extends StatelessWidget {
  
-iteam product;
-
-Details({required this.product});
 
  
 const Home({super.key});
