@@ -16,7 +16,7 @@ class Home extends StatelessWidget {
           ),
       itemCount: 4,
       itemBuilder: (BuildContext context,int index ) {
-        return Container(
+        return GridTile(
           color: Colors.amber,
         );
     
