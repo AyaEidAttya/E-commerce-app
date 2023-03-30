@@ -1,11 +1,17 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
 
+import 'package:ecommerc_app/Model/iteams_class.dart';
 import 'package:flutter/material.dart';
 
 import '../../shaired/const_color.dart';
 
 class Details extends StatefulWidget {
+iteam product;
+Details({
+  required this.product
+});
+
   @override
   State<Details> createState() => _DetailsState();
 }
