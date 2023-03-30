@@ -7,7 +7,16 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: GridView.builder(gridDelegate: gridDelegate, itemBuilder: itemBuilder),
+      body: GridView.builder(
+        gridDelegate:SliverGridDelegateWithFixedCrossAxisCount(
+          crossAxisCount: 2,
+          childAspectRatio: 3/2,
+          crossAxisSpacing: 10,
+          mainAxisSpacing: 33
+          ),
+      
+      
+       itemBuilder: itemBuilder),
    
 
 
