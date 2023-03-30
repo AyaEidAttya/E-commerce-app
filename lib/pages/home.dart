@@ -18,10 +18,18 @@ class Home extends StatelessWidget {
       itemBuilder: (BuildContext context,int index ) {
         return GridTile(
 
-          child:Positioned(
-            child: ClipRRect( 
-              borderRadius: BorderRadius.circular(55),
-              child: Image.asset("assets/img/OIP (1).jpeg")),
+          child:Stack(
+            children: [
+              Positioned(
+              right: 0,
+              left: 0,
+              
+              child: ClipRRect( 
+                borderRadius: BorderRadius.circular(55),
+                child: Image.asset("assets/img/OIP (1).jpeg")),
+            ),
+
+            ],
           ),
         
         );
