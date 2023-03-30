@@ -14,9 +14,10 @@ class Home extends StatelessWidget {
           crossAxisSpacing: 10,
           mainAxisSpacing: 33
           ),
+      itemCount: 4,
       
-      
-       itemBuilder: itemBuilder),
+       
+       ),
    
 
 
