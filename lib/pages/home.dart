@@ -11,7 +11,7 @@ class iteam{
 class Home extends StatelessWidget {
  
 
-List items=[
+ final List<iteam> items=[
 iteam(
   imgpath: "assets/img/OIP (1).jpeg",price: 12.99),
   iteam(
