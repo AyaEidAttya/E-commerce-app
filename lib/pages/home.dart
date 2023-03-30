@@ -87,7 +87,7 @@ Home({super.key});
                 UserAccountsDrawerHeader(
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                        image: AssetImage("assets/img/front.jpg"),
+                        image: AssetImage("assets/img/f.jpeg"),
                         fit: BoxFit.cover),
                   ),
                   accountName: Text("aya eid",
@@ -98,7 +98,7 @@ Home({super.key});
                   currentAccountPictureSize: Size.square(99),
                   currentAccountPicture: CircleAvatar(
                       radius: 55,
-                      backgroundImage: AssetImage("assets/img/back.jpg")),
+                      backgroundImage: AssetImage("assets/img/back g.jpeg")),
                 ),
                 ListTile(
                     title: Text("Home"),
